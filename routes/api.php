@@ -33,7 +33,9 @@ Route::middleware('auth:api')->group(function (){
 
 
 Route::post('/login', 'AuthController@login');
-Route::post('/resister', 'AuthController@register');
+Route::post('/register', 'AuthController@register');
+
+
 
 
 
